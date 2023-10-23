@@ -1,0 +1,56 @@
+name: kumoh_school_bus
+description: This flutter app is school bus system for Kumoh National Institute of Technolog.  This is not a project for launching an actual service, but for a personal project in the webkit 640 course.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # date format 'ko'
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # dotenv
+  flutter_dotenv: ^5.0.2
+
+  # DI
+  provider: ^6.0.5
+
+  # Date Format
+  intl: ^0.18.0
+
+  # google_map
+  google_maps_flutter: ^2.2.1
+  flutter_google_places: ^0.3.0
+  google_maps_cluster_manager: ^3.0.0+1
+
+  google_maps_flutter_platform_interface: ^2.2.6
+  google_maps_flutter_web: ^0.4.0+7
+
+  # chart
+  syncfusion_flutter_charts: ^21.1.41
+
+  # location
+  location: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/profile.png
+    - assets/background.png
